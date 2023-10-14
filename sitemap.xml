@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>Andy Sun's World</title>
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/sitemap.xml" rel="self" type="application/rss+xml" />
+        <description>Andy Say Hi to World</description>
+        <lastBuildDate>Mon, 20 Feb 2023 22:01:34 +0800</lastBuildDate>
+        
+        <item>
+            <title>Esp32Board</title>
+            <link>
+                http://localhost:4000/projects/index_projects/2023/02/18/ESP32Board.html
+            </link>
+            <description>
+                &lt;p&gt;​			These days I bought one board of esp32 to learn how to program with micropython.&lt;/p&gt;
+
+&lt;p&gt;​			Esp32 = mcu + wifi + bluetooth .&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/project/esp32/esp001.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;​	This package suply us so much components to use :DS1302 timer, ADC , LED ,OLED,RGB,Louder , Rel...
+            </description>
+            <pubDate>Sat, 18 Feb 2023 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/index_projects/2023/02/18/ESP32Board.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>bluetooth</title>
+            <link>
+                http://localhost:4000/esp32/index_posts/2023/01/21/esp32.html
+            </link>
+            <description>
+                 	This time we control one led by both button and bluetooth command .
+
+&lt;p&gt;​	 At first , power on the board , the esp32 chip advertise the bluetooth signal , once the app connect it , then press the button , then the esp32 chip send message to app .&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/embedded/esp32/esp201.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&...
+            </description>
+            <pubDate>Sat, 21 Jan 2023 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/esp32/index_posts/2023/01/21/esp32.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>relay</title>
+            <link>
+                http://localhost:4000/esp32/index_posts/2023/01/20/esp32.html
+            </link>
+            <description>
+                &lt;p&gt;​	A relay is an electronic control device, equivalent to a switch.&lt;/p&gt;
+
+&lt;p&gt;​	Usually, a relay can be used to control a large current with a small current, or to control a high voltage with a low voltage.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/embedded/esp32/esp105.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;​	By default, NC and C...
+            </description>
+            <pubDate>Fri, 20 Jan 2023 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/esp32/index_posts/2023/01/20/esp32.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>buzzer</title>
+            <link>
+                http://localhost:4000/esp32/index_posts/2023/01/19/esp32.html
+            </link>
+            <description>
+                &lt;p&gt;​	There are two kinds of buzzer , active buzzer and passive buzzer .&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/embedded/esp32/esp103.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;​	We need to connect GPIO25 to BEEP of J2 .and J2 connect to ULN2003D module .&lt;/p&gt;
+
+&lt;p&gt;​	GPIO25 –&amp;gt; BEEP(J2) –&amp;gt;BEEP(6,ULN2003D) –&amp;gt;BEEP OU...
+            </description>
+            <pubDate>Thu, 19 Jan 2023 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/esp32/index_posts/2023/01/19/esp32.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>light one led</title>
+            <link>
+                http://localhost:4000/esp32/index_posts/2023/01/18/esp32.html
+            </link>
+            <description>
+                &lt;p&gt;​	We should pull high level at one side of the LED light , and connect the other side to GND, that would make the light shine .This is the base role .&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/embedded/esp32/esp101.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;​	Because we need to make J1 at high level to let led shine , so we have to connect one...
+            </description>
+            <pubDate>Wed, 18 Jan 2023 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/esp32/index_posts/2023/01/18/esp32.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Say Something About Netty</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/22/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;tcpip&quot;&gt;TCP/IP&lt;/h2&gt;
+
+&lt;p&gt;​	Communication between  different device .&lt;/p&gt;
+
+&lt;p&gt;​	what we need focus&lt;/p&gt;
+
+&lt;h2 id=&quot;java-socket&quot;&gt;Java Socket&lt;/h2&gt;
+
+&lt;p&gt;​	bug&lt;/p&gt;
+
+&lt;h2 id=&quot;netty-socket&quot;&gt;Netty Socket&lt;/h2&gt;
+
+&lt;p&gt;​	theory&lt;/p&gt;
+
+&lt;h2 id=&quot;netty-other&quot;&gt;Netty Other&lt;/h2&gt;
+
+&l...
+            </description>
+            <pubDate>Thu, 22 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/22/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Netty Source Code</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/21/netty.html
+            </link>
+            <description>
+                &lt;h3 id=&quot;21-analyse&quot;&gt;2.1 Analyse&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//1 netty use NioEventLoopGroup to encapsulate thread and selector&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Selector&lt;/span&gt; &lt;span class=&qu...
+            </description>
+            <pubDate>Wed, 21 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/21/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>RPC framework</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/20/netty.html
+            </link>
+            <description>
+                &lt;h4 id=&quot;1preparation&quot;&gt;1）Preparation&lt;/h4&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Data&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;abstract&lt;/span&gt; &lt;span class=&quot;k...
+            </description>
+            <pubDate>Tue, 20 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/20/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Channel option</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/19/netty.html
+            </link>
+            <description>
+                &lt;h4 id=&quot;1connect_timeout_millis&quot;&gt;1）CONNECT_TIMEOUT_MILLIS&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is for SocketChannal  (client)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;when the client create connection , it will throw timeout exception if it is not connected  to server in timeout time&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SO_TIMEOUT is mainly used in blocking io&lt;/li&gt;
+&lt;/ul&g...
+            </description>
+            <pubDate>Mon, 19 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/19/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Chat Room</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/18/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;3-chat-room&quot;&gt;3. chat room&lt;/h2&gt;
+
+&lt;h3 id=&quot;31-description&quot;&gt;3.1 description&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;interface&lt;/span&gt; &lt;spa...
+            </description>
+            <pubDate>Sun, 18 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/18/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Protocol</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/17/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;2-protocol-design-and-parse&quot;&gt;2. Protocol design and parse&lt;/h2&gt;
+
+&lt;h3 id=&quot;22-redis-protocol&quot;&gt;2.2 redis protocol&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;NioEventLoopGroup&lt;/span&gt; &lt;span class...
+            </description>
+            <pubDate>Sat, 17 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/17/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>StickPackage & Half Package</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/16/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;1-stick-package-and-half-package&quot;&gt;1. stick package and half package&lt;/h2&gt;
+
+&lt;h3 id=&quot;11-stick-package&quot;&gt;1.1 stick package&lt;/h3&gt;
+
+&lt;p&gt;Server&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;...
+            </description>
+            <pubDate>Fri, 16 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/16/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>ByteBuf</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/15/netty.html
+            </link>
+            <description>
+                &lt;h3 id=&quot;bytebuf-is-subclass-of-bytebufferjava-nio&quot;&gt;ByteBuf is subclass of ByteBuffer(java nio)&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&q...
+            </description>
+            <pubDate>Thu, 15 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/15/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Handler & Pipeline</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/14/netty.html
+            </link>
+            <description>
+                &lt;p&gt;ChannelHandler is used for dealing with all events of Channel ，inbond and outbound。All annelHandler is strung together in a string，this is Pipeline&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;inbound handler is subclass of ChannelInboundHandlerAdapter，read data ,&lt;/li&gt;
+  &lt;li&gt;out bond handler is subclass of ChannelOutboundHandlerAdapter，write data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Chann...
+            </description>
+            <pubDate>Wed, 14 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/14/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Future & Promise</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/13/netty.html
+            </link>
+            <description>
+                &lt;p&gt;1, close() // close the channel&lt;/p&gt;
+
+&lt;p&gt;2, closeFuture()&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sync()   wait synchronously channel close happen&lt;/li&gt;
+  &lt;li&gt;addListener()  wait asynchronously channel close happen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3,pipeline() add handler&lt;/p&gt;
+
+&lt;p&gt;4, write() write data into channel&lt;/p&gt;
+
+&lt;p&gt;5, writeAndFlush() write...
+            </description>
+            <pubDate>Tue, 13 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/13/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>EventLoop</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/12/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1eventloop&quot;&gt;1,EventLoop&lt;/h1&gt;
+
+&lt;p&gt;The nature of EventLoop  is one single thread executor which mataince a selector . it’s run method deal with io event comming from channel .&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;it extends  java.util.concurrent.ScheduledExecutorService ,so it own all method of ScheduledExecutorService&lt;/li&gt;
+  &lt;li&gt;it also entends Ordere...
+            </description>
+            <pubDate>Mon, 12 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/12/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Netty Start</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/11/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1hello-netty&quot;&gt;1,Hello Netty&lt;/h1&gt;
+
+&lt;h2 id=&quot;server&quot;&gt;Server&lt;/h2&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServerBootstrap&lt;/span&gt;&lt;span class=&quot;...
+            </description>
+            <pubDate>Sun, 11 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/11/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>NIO & BIO</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/10/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;1-stream-vs-channel&quot;&gt;1, stream vs channel&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;stream means socket stream or file input oupt stream&lt;/li&gt;
+  &lt;li&gt;channel means netty socket channel&lt;/li&gt;
+  &lt;li&gt;stream does not buffer data , channel will use sending buffer area , receiving buffer area , channel call system api&lt;/li&gt;
+  &lt;li&gt;stream only support bl...
+            </description>
+            <pubDate>Sat, 10 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/10/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Multiple Thread</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/09/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1boss--worker&quot;&gt;1,Boss &amp;amp; Worker&lt;/h1&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/backend/netty/0058.png&quot; width=&quot;80%&quot; /&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;server&quot;&gt;Server&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;co...
+            </description>
+            <pubDate>Fri, 09 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/09/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Write event</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/08/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;sample-of-cannot-write-one-time&quot;&gt;Sample of cannot write one time&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;unlocking mode cannot ensure data of buffer written into channel one time , so that we should track the result of write()  (the result stands for amount of written data)&lt;/li&gt;
+  &lt;li&gt;If we use SelectionKey to track the buffer , that would cost so much memeory , s...
+            </description>
+            <pubDate>Thu, 08 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/08/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Message border</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/07/netty.html
+            </link>
+            <description>
+                &lt;center&gt;&lt;img src=&quot;/assets/images/posts/backend/netty/0023.png&quot; width=&quot;60%&quot; /&gt;&lt;/center&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;the length of ByteBuffer is less than message&lt;/li&gt;
+  &lt;li&gt;the length of ByteBuffer is larger than one time of message ,but less than two time of message  (half package2)&lt;/li&gt;
+  &lt;li&gt;the length of ByteBuffer is larger than two ...
+            </description>
+            <pubDate>Wed, 07 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/07/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Deal with connection close</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/06/netty.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;1client-shutdown-abnormally&quot;&gt;1,Client shutdown abnormally&lt;/h2&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nc&quot;&gt;Selector&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;selector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span...
+            </description>
+            <pubDate>Tue, 06 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/06/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Selector</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/05/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;part-i-multiplexing&quot;&gt;Part I Multiplexing&lt;/h1&gt;
+
+&lt;p&gt;Single thread cooperate with Selector to implement monitoring multiple channel’s readable/writable event , we call it multiplexing&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;multiplexing can only be used in network IO , not in common io&lt;/li&gt;
+  &lt;li&gt;if we don’t use Selector under unblocking mode , current thr...
+            </description>
+            <pubDate>Mon, 05 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/05/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Blocking & UnBlocking</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/04/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;part-i-blocking-mode&quot;&gt;Part I Blocking mode&lt;/h1&gt;
+
+&lt;p&gt;Server&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// single thread&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 0. ByteBuffer&lt;/span&gt;
+&lt;span class...
+            </description>
+            <pubDate>Sun, 04 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/04/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>FileChannel</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/03/netty.html
+            </link>
+            <description>
+                &lt;p&gt;FileChannel can only work under blocking mode .&lt;/p&gt;
+
+&lt;p&gt;There’s no point in describing more about FileChannel here , learn it until you need it .&lt;/p&gt;
+
+
+            </description>
+            <pubDate>Sat, 03 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/03/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>ByteBuffer</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/02/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;part-i--bytebuffer&quot;&gt;Part I , ByteBuffer&lt;/h1&gt;
+
+&lt;p&gt;create one file named data.txt , the content as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1234567890abcd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;get content f...
+            </description>
+            <pubDate>Fri, 02 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/02/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Nio Description</title>
+            <link>
+                http://localhost:4000/netty/index_posts/2022/09/01/netty.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;一-nio-knowledge&quot;&gt;一. NIO knowledge&lt;/h1&gt;
+
+&lt;p&gt;non-blocking io&lt;/p&gt;
+
+&lt;h2 id=&quot;1-three-big-components&quot;&gt;1. Three big components&lt;/h2&gt;
+
+&lt;h3 id=&quot;11-channel--buffer&quot;&gt;1.1 Channel &amp;amp; Buffer&lt;/h3&gt;
+
+&lt;p&gt;channel looks like stream,it is a two-way channel for reading and writing . You can read data from channel into b...
+            </description>
+            <pubDate>Thu, 01 Sep 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/netty/index_posts/2022/09/01/netty.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Create github blog by jekyll</title>
+            <link>
+                http://localhost:4000/front_others/index_posts/2022/03/23/JekyllBlog.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1jekyll-introduction&quot;&gt;1,Jekyll introduction&lt;/h1&gt;
+
+&lt;p&gt;the web site is &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;https://jekyllrb.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It transform your plain text , such as markdown file , into static web pages.&lt;/p&gt;
+
+&lt;p&gt;Since github offer us the possibility that we build our own static web site , jekyll become to ...
+            </description>
+            <pubDate>Wed, 23 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/front_others/index_posts/2022/03/23/JekyllBlog.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>KM  IOT  Socket  Framework</title>
+            <link>
+                http://localhost:4000/projects/index_projects/2022/03/20/KMIOTFrame.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;the-underlying-framework-of-the-server-corresponding-to-the-new-version-of-the-charging-pile&quot;&gt;The underlying framework of the server corresponding to the new version of the charging pile&lt;/h1&gt;
+
+&lt;h2 id=&quot;iintroduction&quot;&gt;I.Introduction&lt;/h2&gt;
+
+&lt;h3 id=&quot;1research-background-and-significance&quot;&gt;1.Research Background and Significance&lt;/h3...
+            </description>
+            <pubDate>Sun, 20 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/index_projects/2022/03/20/KMIOTFrame.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Apps for Heat Shoes</title>
+            <link>
+                http://localhost:4000/projects/index_projects/2022/03/19/HeatApp.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;description&quot;&gt;Description&lt;/h1&gt;
+
+&lt;p&gt;I developed two apps for our smart shoes which are able to heat the foot at cold day .&lt;/p&gt;
+
+&lt;h2 id=&quot;kmiot&quot;&gt;kmiot：&lt;/h2&gt;
+
+&lt;p&gt;developed for operators , shop keepers to test these shoes before selling to the customer.&lt;/p&gt;
+
+&lt;h2 id=&quot;booteyes&quot;&gt;booteyes:&lt;/h2&gt;
+
+&lt;p&gt;dev...
+            </description>
+            <pubDate>Sat, 19 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/index_projects/2022/03/19/HeatApp.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Grow Lights</title>
+            <link>
+                http://localhost:4000/projects/index_projects/2022/03/19/GrowLights.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;the-controller-of-grow-lights-system&quot;&gt;The controller of Grow Lights System&lt;/h1&gt;
+
+&lt;h2 id=&quot;iintroduction&quot;&gt;I.Introduction&lt;/h2&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/project/growlights/gr000.png&quot; width=&quot;50%&quot; /&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;1research-background-and-significance&quot;&gt;1.Research Background and...
+            </description>
+            <pubDate>Sat, 19 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/index_projects/2022/03/19/GrowLights.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>Bike Sharing System</title>
+            <link>
+                http://localhost:4000/projects/index_projects/2022/03/18/BikeSharing.html
+            </link>
+            <description>
+                &lt;p&gt;​		to do&lt;/p&gt;
+
+
+            </description>
+            <pubDate>Fri, 18 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/index_projects/2022/03/18/BikeSharing.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>National Grid network data acquisition system</title>
+            <link>
+                http://localhost:4000/projects/2022/03/08/networkspider.html
+            </link>
+            <description>
+                &lt;p&gt;​		This project is a data collection system of the State Grid in order to analyze the financial index and stock quotation information. The system is divided into two subsystems: crawler core system and data management system. Background management personnel through the management page according to the specified target page document structure of the crawl rules and crawl task, start the...
+            </description>
+            <pubDate>Tue, 08 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/2022/03/08/networkspider.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>GPMall</title>
+            <link>
+                http://localhost:4000/projects/2022/03/07/GPMall.html
+            </link>
+            <description>
+                &lt;p&gt;Spring boot  kafka  ElasticSearch    zookeeper&lt;/p&gt;
+
+            </description>
+            <pubDate>Mon, 07 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/2022/03/07/GPMall.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>HttpServerFramework</title>
+            <link>
+                http://localhost:4000/projects/2022/03/06/HttpServerFramework.html
+            </link>
+            <description>
+                &lt;p&gt;todo&lt;/p&gt;
+
+            </description>
+            <pubDate>Sun, 06 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/2022/03/06/HttpServerFramework.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>IOT</title>
+            <link>
+                http://localhost:4000/projects/2022/03/05/IOT.html
+            </link>
+            <description>
+                &lt;p&gt;todo&lt;/p&gt;
+
+
+            </description>
+            <pubDate>Sat, 05 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/2022/03/05/IOT.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>spider</title>
+            <link>
+                http://localhost:4000/projects/2022/03/04/spider.html
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Fri, 04 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/2022/03/04/spider.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>km sharing</title>
+            <link>
+                http://localhost:4000/projects/2022/03/03/KM.html
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Thu, 03 Mar 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/projects/2022/03/03/KM.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>algorithm</title>
+            <link>
+                http://localhost:4000/algorithm/index_posts/2022/01/02/algorithm.html
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Sun, 02 Jan 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/algorithm/index_posts/2022/01/02/algorithm.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>algorithm</title>
+            <link>
+                http://localhost:4000/algorithm/index_posts/2022/01/01/algorithm.html
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Sat, 01 Jan 2022 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/algorithm/index_posts/2022/01/01/algorithm.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>17</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/17/RN.html
+            </link>
+            <description>
+                &lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteri...
+            </description>
+            <pubDate>Fri, 17 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/17/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>16</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/16/RN.html
+            </link>
+            <description>
+                &lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteri...
+            </description>
+            <pubDate>Thu, 16 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/16/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>15</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/15/RN.html
+            </link>
+            <description>
+                &lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteri...
+            </description>
+            <pubDate>Wed, 15 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/15/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>14</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/14/RN.html
+            </link>
+            <description>
+                &lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteri...
+            </description>
+            <pubDate>Tue, 14 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/14/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>13</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/13/RN.html
+            </link>
+            <description>
+                &lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteri...
+            </description>
+            <pubDate>Mon, 13 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/13/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>12_趋势模块开发</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/12/RN.html
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Sun, 12 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/12/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>11_网络通讯</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/11/RN.html
+            </link>
+            <description>
+                
+
+            </description>
+            <pubDate>Sat, 11 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/11/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>10_Redux</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/10/RN.html
+            </link>
+            <description>
+                &lt;p&gt;为了帮助大家快速上手什么是Redux开发，在这本节中将向大家介绍什么是Redux开发所需要的[一些什么是Redux必备基础以及高级知识。&lt;/p&gt;
+
+&lt;h2 id=&quot;什么是redux&quot;&gt;什么是Redux？&lt;/h2&gt;
+
+&lt;p&gt;Redux 是 JavaScript 状态容器，提供可预测化的状态管理，可以让你构建一致化的应用，运行于不同的环境（客户端、服务器、原生应用），并且易于测试。&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/frontend/reactnative/rn010.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&lt;blockquote&gt...
+            </description>
+            <pubDate>Fri, 10 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/10/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>09_Flatlist</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/09/RN.html
+            </link>
+            <description>
+                &lt;p&gt;在APP开发过程中，列表可谓是页面最重要的一种展现形式了，几乎每一个APP都离不了列表，那么在这篇文章中将向大家分享在React Native中该如何实现列表，以及FlatList的原理和实用指南。&lt;/p&gt;
+
+&lt;p&gt;在React Native的早期版本中列表通常使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ListView&lt;/code&gt;来实现，新版React Native推荐我们使用FlatList来实现列表，那么为什么推荐使用FlatList列表呢？接下来就让我从FlatList的由来说起：&lt;/p&gt;
+
+&lt;h2 id=&quot;flatlist的由来&quot;&gt;FlatList的由来？&lt;/h2&gt;
+
+&...
+            </description>
+            <pubDate>Thu, 09 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/09/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>08_drawerN avigator&swithNavigator</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/08/RN.html
+            </link>
+            <description>
+                &lt;h2 id=&quot;createswitchnavigator&quot;&gt;createSwitchNavigator&lt;/h2&gt;
+
+&lt;p&gt;SwitchNavigator 的用途是一次只显示一个页面。 默认情况下，它不处理返回操作，并在你切换时将路由重置为默认状态。&lt;/p&gt;
+
+&lt;h3 id=&quot;createswitchnavigator-api&quot;&gt;createSwitchNavigator API&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&qu...
+            </description>
+            <pubDate>Wed, 08 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/08/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>07_createTopNavigator</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/07/RN.html
+            </link>
+            <description>
+                &lt;p&gt;这篇文章将向大家分享createMaterialTopTabNavigator的一些开发指南和实用技巧。&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/frontend/reactnative/rn004.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+&lt;h3 id=&quot;creatematerialtoptabnavigator-api&quot;&gt;createMaterialTopTabNavigator API&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&...
+            </description>
+            <pubDate>Tue, 07 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/07/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>06_createStackNavigator</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/06/RN.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;createstacknavigator&quot;&gt;createStackNavigator&lt;/h1&gt;
+
+&lt;p&gt;createStackNavigator提供app屏幕之间切换的能力，它是以栈的形式来管理屏幕之间的切换，新切换到的屏幕会放在栈的顶部。&lt;/p&gt;
+
+&lt;h2 id=&quot;屏幕转场风格&quot;&gt;屏幕转场风格&lt;/h2&gt;
+
+&lt;p&gt;默认情况下，createStackNavigator提供了转场过度效果，在android和ios上过渡效果是不同的，这也是rn重平台性的体现，在android上从屏幕底部淡入，在ios上从屏幕的右侧划入，当然你也可以通过配置让StackNavigator支持屏幕从底部滑入的效果。&lt;/p&gt;
+
+&lt;h2 id=&quot;c...
+            </description>
+            <pubDate>Mon, 06 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/06/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>05_react-navigation</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/05/RN.html
+            </link>
+            <description>
+                &lt;p&gt;随着React Navigation逐渐稳定，Navigator也被光荣的退休了。在React Native生态环境中需要一款可扩展且易于使用的导航组件，Navigator 自然胜任不了，这时React Native社区便孕育出了一个开源导航组件React Navigation。&lt;/p&gt;
+
+&lt;p&gt;React Navigation的出现替代了Navigator、 Ex-Navigation等老一代的导航组件，React Navigation可以说是Navigator的加强版，不仅有Navigator的全部功能，另外还支持底部导航类似于与iOS中的UITabBarController，此外它也支持侧拉效果方式的导航类似于Android中的抽屉效果。&lt;/p&gt;
+
+&lt;p&gt;这篇文章将向大家分享React Navigation3x开...
+            </description>
+            <pubDate>Sun, 05 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/05/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>04_reactnative布局</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/04/RN.html
+            </link>
+            <description>
+                &lt;p&gt;React Native 中布局采用的是FlexBox(弹性框)进行布局。&lt;/p&gt;
+
+&lt;p&gt;FlexBox提供了在不同尺寸设备上都能保持一致的布局方式。FlexBox是CSS3弹性框布局规范，目前还处于最终征求意见稿阶段，并不是所有的浏览器都支持FlexBox。&lt;/p&gt;
+
+&lt;h1 id=&quot;宽和高&quot;&gt;宽和高&lt;/h1&gt;
+
+&lt;p&gt;一个组件的高度和宽度决定了它在屏幕上的尺寸，也就是大小。&lt;/p&gt;
+
+&lt;h1 id=&quot;像素无关&quot;&gt;像素无关&lt;/h1&gt;
+
+&lt;p&gt;在rn中尺寸是没有单位的，它代表了设备独立像素。&lt;/p&gt;
+
+&lt;div style=&quot;color:red;font-size:20px&qu...
+            </description>
+            <pubDate>Sat, 04 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/04/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>03_ReactNative基础知识</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/03/RN.html
+            </link>
+            <description>
+                &lt;p&gt;React 是facebook推出的开源JavaScript Library，它是一个用户组建用户界面的JavaScript库，让你以更简单的方式来创建交互式用户界面，它的出现让许多革新性的web观念开始流行起来，例如：Virtual DOM , Component , 声明式渲染等。&lt;/p&gt;
+
+&lt;p&gt;命令式编程：命令“机器”如何去做事情（how），这样不管你想要的是什么（what），它都会按照你的命令实现。&lt;/p&gt;
+
+&lt;p&gt;声明式编程：告诉“机器”你想要的是什么（what），让机器想出如何去做（how）。&lt;/p&gt;
+
+&lt;h1 id=&quot;jsx&quot;&gt;JSX&lt;/h1&gt;
+
+&lt;p&gt;jax能定义简洁且我们熟知的包含属性的树状结构语法。&lt;/p&gt;
+
+&lt;...
+            </description>
+            <pubDate>Fri, 03 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/03/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>02_ES语法</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/02/RN.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1类&quot;&gt;1.类&lt;/h1&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Animal&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kd&quot;&gt;construc...
+            </description>
+            <pubDate>Thu, 02 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/02/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>01_ReactNative实战学习</title>
+            <link>
+                http://localhost:4000/reactnative/2020/01/01/RN.html
+            </link>
+            <description>
+                &lt;p&gt;第一节概览，我想等到后续app都写的差不多了，再反过来总结，这样会比较好些。&lt;/p&gt;
+
+&lt;p&gt;有一点心得是，刚开始入行的时候，每当学习一门编程语言的时候，都是从最基础的知识学习，在学习过程中，也不知道哪里以后会经常用到，所以就像愚公移山一样，夸父追日一般，身心疲惫。也就是说学习曲线会很陡峭。&lt;/p&gt;
+
+&lt;p&gt;后来过了3年之后，发现有一种方式叫做实战学习，就是找个视频，看人家怎么一步步把一个程序给搭建并运行起来，在编程的过程中，用到哪再着重看哪块。但是这种方法虽然会快速上手，后续的坑也会很多，好多知识有遗漏或者不稳固，很容易后续接连入坑爬坑。&lt;/p&gt;
+
+&lt;p&gt;再过了几年之后，编程思想稍微有些雏形，有一套自有思维体系的时候，即便入坑，也能比较快的爬坑出来，但是还是感觉有些痛苦。&lt;/p&gt;
+...
+            </description>
+            <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/reactnative/2020/01/01/RN.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>c-learning-002</title>
+            <link>
+                http://localhost:4000/c/2019/01/02/C.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1保留字&quot;&gt;1，保留字&lt;/h1&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span...
+            </description>
+            <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/c/2019/01/02/C.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>c-learning-001</title>
+            <link>
+                http://localhost:4000/c/2019/01/01/C.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;1hello-world&quot;&gt;1,Hello world&lt;/h1&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include&lt;/span&gt; &lt;span class=&quot;cpf&quot;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;
+&lt;/span&gt;&lt;span clas...
+            </description>
+            <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/c/2019/01/01/C.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>002_定语从句</title>
+            <link>
+                http://localhost:4000/grammar/2018/01/02/Grammar.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;定语从句&quot;&gt;定语从句&lt;/h1&gt;
+
+&lt;p&gt;定义：定语是用来修饰、限定、说明名词或代词的品质与特征的。定语的位置一般有两种：用在所修饰词之前的叫前置定语，用在所修饰词之后的叫后置定语。&lt;/p&gt;
+
+&lt;p&gt;后置定语英文示例：&lt;/p&gt;
+
+&lt;p&gt;1.A man of his word&lt;/p&gt;
+
+&lt;p&gt;2.The way to heaven&lt;/p&gt;
+
+&lt;p&gt;3.The guy you love&lt;/p&gt;
+
+&lt;h1 id=&quot;后置定语类型&quot;&gt;后置定语类型：&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;N + adj 短语       A ma...
+            </description>
+            <pubDate>Tue, 02 Jan 2018 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/grammar/2018/01/02/Grammar.html
+            </guid>
+        </item>
+        
+        <item>
+            <title>001_句子结构</title>
+            <link>
+                http://localhost:4000/grammar/2018/01/01/Grammar.html
+            </link>
+            <description>
+                &lt;h1 id=&quot;句子结构&quot;&gt;句子结构&lt;/h1&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/images/posts/english/grammar/grammar001.png&quot; width=&quot;100%&quot; /&gt;&lt;/center&gt;
+
+            </description>
+            <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
+            <guid>
+                http://localhost:4000/grammar/2018/01/01/Grammar.html
+            </guid>
+        </item>
+        
+    </channel>
+</rss>
